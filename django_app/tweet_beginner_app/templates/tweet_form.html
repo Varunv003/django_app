@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Tweet
+{% endblock title %}
+
+{% block content %}
+<h1 class = 'text-center mt-4'>
+    welcome to the home page
+</h1>
+
+<h2>
+  {% if form.isntance.pk %}
+  Edit Tweet
+  {%else}
+  Create Tweet
+  {%endif%}
+</h2>
+
+<form method="POST" enctype="multipart/form-data" class="form m-5">
+  {% csrf_token %} 
+  {{form.as_p}}
+  <button class="btn btn-warning " type="submit">Make New Tweet</button>
+</form>
+
+<a href="{% url 'tweet_list' %}}">Back to Tweet list</a>
+{% endblock content %}
