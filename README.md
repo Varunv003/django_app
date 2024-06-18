@@ -1,4 +1,4 @@
-# Demo Full-Stack Application with Django and Django REST framework
+# Demo Full-Stack Application with Django and REST framework
 
 ## Overview
 This project showcases a full-stack application built using Django and Django REST framework. Key features include user authentication, CRUD operations on tweets, and handling of images and text. The application utilizes Django's ORM and Django REST framework to create a robust RESTful API for tweet management.
