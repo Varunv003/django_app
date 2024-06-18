@@ -7,7 +7,6 @@ This project showcases a full-stack application built using Django and Django RE
 - **Backend**: Django, Django REST framework
 - **Frontend**: HTML, minimal CSS, BootStrap
 - **Database**: SQLite (default with Django)
-- **Other Tools**: Git (version control), GitHub (repository hosting), Python (programming language)
 
 ## Features Implemented
 ### User Authentication:
