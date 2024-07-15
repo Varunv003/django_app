@@ -3,7 +3,7 @@
 ## Overview
 This project showcases a full-stack application built using Django and Django REST framework. Key features include user authentication, CRUD operations on tweets, and handling of images and text. The application utilizes Django's ORM and Django REST framework to create a robust RESTful API for tweet management.
 
-![Django Tweet App](django_app\django_app\media\photos\readme_snip.png)
+![Django Tweet App](django_app\media\photos\readme_snip.png)
 
 ## Technologies Used
 - **Backend**: Django, Django REST framework
